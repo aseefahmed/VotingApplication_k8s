@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: vote
-  namespace: vote
+  namespace: votings
 spec:
   replicas: 1
   template:
@@ -11,5 +11,5 @@ spec:
         app: vote
     spec:
       containers:
-      - image: aseefahmed/app_result
+      - image: aseefahmed/app_vote
         name: vote
