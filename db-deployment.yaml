@@ -11,7 +11,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: postgres:9.4
+      - image: aseefahmed/postgres
         name: db
         volumeMounts:
         - mountPath: /var/lib/postgresql/data
