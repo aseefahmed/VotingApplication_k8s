@@ -11,5 +11,5 @@ spec:
         app: result
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_result:before
+      - image: aseefahmed/app_result
         name: result
